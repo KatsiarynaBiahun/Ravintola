@@ -41,6 +41,7 @@ public class Ravintola extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jlbl1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jlbl1.setText("Olen ravintolan portsari.");
 
         jlblNimi.setText("Ole hyvä ja anna nimesi:");
@@ -99,7 +100,7 @@ public class Ravintola extends javax.swing.JFrame {
                 .addComponent(jbtnIka)
                 .addGap(18, 18, 18)
                 .addComponent(jlblTervehdys, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(31, Short.MAX_VALUE))
+                .addContainerGap(30, Short.MAX_VALUE))
         );
 
         pack();
